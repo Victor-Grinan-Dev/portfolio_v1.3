@@ -11,6 +11,7 @@ import Gallery from './components/pages/Gallery';
 import Footer from './components/UIs/Footer';
 import Skills from './components/pages/Skills';
 import { useState } from 'react';
+import Projects from './components/pages/Projects';
 
 
 //import { getAnalytics } from "firebase/analytics";
@@ -57,6 +58,7 @@ const App = () => {
           <Route path="contacts" element={<Contacts />} />
           <Route path="browse/:single" element={<SingleProject />} /> 
           <Route path="gallery" element={<Gallery />} />
+          <Route path="projects" element={<Projects />} />
         </Routes>
         <Footer />
       </BrowserRouter>

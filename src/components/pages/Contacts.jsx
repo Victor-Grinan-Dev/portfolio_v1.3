@@ -1,5 +1,7 @@
 import React from 'react';
 import Email from './Email';
+import conctacts from './dummy_conctacts';
+import Conctact from '../UIs/Conctact';
 
 function Conctacts() {
   return (
@@ -8,12 +10,19 @@ function Conctacts() {
         <h1> Conctacts: </h1>
         <p>We are in: </p>
         <ul>
-          <a href="#" className='addCard'><li><p> instagram </p></li></a>
-          <a href="#" className='addCard'><li><p> facebook </p> </li></a>
-          <a href="#" className='addCard'><li><p> linkedin </p> </li></a>
-          <a href="#" className='addCard'><li><p> github </p> </li></a>
-          <a href="#" className='addCard'><li><p> youtube </p></li></a>
-          <a href="#" className='addCard'><li><p> tik tok </p></li></a>
+
+            {conctacts.map(item => (
+              <li>  
+                  <Conctact 
+                  key={item.id} 
+                  id={item.id}
+                  name={item.name}
+                  url={item.url}
+                  />
+              </li>
+            ))}
+
+
         </ul>
 
       </header>
