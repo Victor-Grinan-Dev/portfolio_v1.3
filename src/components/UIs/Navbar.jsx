@@ -7,7 +7,8 @@ function Navbar() {
     <div className="navContainer">
 
       <div className="logo">
-        <NavLink to='/'><img src={logo}/></NavLink> 
+        <NavLink to='/'>
+          <img src={logo}/></NavLink> 
       </div>
 
       <div className="navLinkContainer" >
@@ -25,3 +26,25 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+/*
+<section id="menuBar">
+            <div id="logo">               
+                <h1 id="v"> V</h1>
+                <h1 id="g">G </h1>
+            </div> 
+            <nav>
+
+                <button id="mobileButton"></button>
+                
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="https://www.bc.fi/?sgclid=CjwKCAiAgbiQBhAHEiwAuQ6Bkr5THOt4DfqX4mz_e1O6WBURiBQcHFbgeelyfIXyITuybfpFCgFI6RoCjrEQAvD_BwE" target="blank">HBC</a></li>
+                    <li><a href="#conctactSection">Conctact</a></li>
+                </ul>
+
+            </nav>
+
+        </section>
+*/

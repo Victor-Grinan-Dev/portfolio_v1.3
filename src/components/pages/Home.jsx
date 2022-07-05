@@ -16,6 +16,11 @@ function Home({getIn}) {
 
 export default Home;
 
+<div id="logo">               
+<h1 id="v"> V</h1>
+<h1 id="g">G </h1>
+</div>
+
 /*
 <video
                 autoPlay
