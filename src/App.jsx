@@ -35,7 +35,6 @@ const App = () => {
   const [entered, setEntered] = useState(false);
 
   const enter = () => {
-    console.log("started")
     setEntered(true);
   }
 
@@ -58,10 +57,10 @@ const App = () => {
           <Route path="skills" element={<Skills />} />
           <Route path="add" element={<AddCard />} />
           <Route path="contacts" element={<Contacts />} />
-          {/*<Route path="browse/:single" element={<SingleProject />} />*/} 
+          {/*<Route path="browse/:single" element={<SingleProject />} />*/}
+          <Route path="projects" element={<Projects />} /> 
           <Route path="projects/:single" element={<SingleProject />} /> 
           <Route path="gallery" element={<Gallery />} />
-          <Route path="projects" element={<Projects />} />
         </Routes>
         <Footer />
       </BrowserRouter>

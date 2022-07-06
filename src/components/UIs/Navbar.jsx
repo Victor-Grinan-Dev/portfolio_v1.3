@@ -9,11 +9,10 @@ const navBarStyles ={
     height: "100vh",
     marginRight: "50px",
     backgroundColor: "rgb(0, 0, 0)",
-    color: "beige",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    justifyContent: "space-between",
+    justifyContent: "space-around",
     position: "fixed"
   },
   logo_img : {
@@ -27,6 +26,7 @@ const navBarStyles ={
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "space-between",
+    marginBotton: "10px"
   },
   navLink:{
     color: "beige",
@@ -45,13 +45,13 @@ function Navbar() {
       </div>
 
       <div className="navLinkContainer" style={navBarStyles.navLinkContainer}>
-        <NavLink to='/' className='navLink' > About </NavLink>
+        <NavLink to='/' className='navLink' style={navBarStyles.navLink}> About </NavLink>
         <NavLink to="projects" className='navLink' style={navBarStyles.navLink}> Projects </NavLink>
         <NavLink to="skills" className='navLink' style={navBarStyles.navLink}> Skills </NavLink>
         <NavLink to="gallery" className='navLink' style={navBarStyles.navLink}> Gallery </NavLink>
         <NavLink to='/contacts' className='navLink' style={navBarStyles.navLink}> Conctact Me </NavLink>
 
-        <a className='navLink' href="https://www.bc.fi/?gclid=Cj0KCQjwmuiTBhDoARIsAPiv6L957izCclO7mHzuc9Q4NksNezhLDQ4OZ9Xqjn5T-regQ-2zJDkA69UaAlLQEALw_wcB" target="blank"> HBC </a>
+        <a className='navLink' href="https://www.bc.fi/?gclid=Cj0KCQjwmuiTBhDoARIsAPiv6L957izCclO7mHzuc9Q4NksNezhLDQ4OZ9Xqjn5T-regQ-2zJDkA69UaAlLQEALw_wcB" target="blank" style={navBarStyles.navLink}> HBC </a>
 
       </div> 
     </div>

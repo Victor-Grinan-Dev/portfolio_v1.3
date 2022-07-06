@@ -3,25 +3,64 @@ import { Link } from 'react-router-dom';
 
 function Project({id, title, description, image, url, data}) {
   return (
-    <div>
+    <div className="project"
+        style={{
+            width:"200px",
+            height:"250px",
+            backgroundColor:"white",
+            margin:"10px"
+        }}
+    >
         <a href={url ? url : "#"}>
-            <div id={id} className="projectImg">
+            <div id={id} className="projectImg"
+                style={{
+                    width:"180px",
+                    height:"140px",
+                    backgroundColor:"black",
+                    margin:"10px",
+                }}
+            >
                 <img src={image} alt={title} />
             </div>
         </a> 
     
-        <div className="description">
+        <div className="description"
+            style={{
+                width:"",
+                height:"",
+                backgroundColor:"",
+                margin:"",
+            }}
+        >
             <h4 className="projectTitle"> "{title}" </h4>
             <p className="descriptionText"> {description ? description: "Lorem ipsum dolor sit amede."}  </p>
         </div>
 
         <div className="seeMore" >
         <Link to={title} state={{ data:data }}>
-          See more
+          +Info
         </Link>
       </div>
     </div>
   )
 }
 
-export default Project
+export default Project;
+
+
+/*
+                <div class="project">
+                    
+                    <a href="#diceRollerImg">
+                        <div id="diceRollerImg" class="projectImg">
+                            <img src="/images/test_Img.png" alt="#">
+                        </div>
+                    </a>
+
+                    <div class="description">
+                        <h45 class="projectTitle">Dice Roller</5>
+                        <p class="descriptionText">Lorem ipsum dolor sit amet</p>
+                    </div>
+                    
+                </div>
+*/

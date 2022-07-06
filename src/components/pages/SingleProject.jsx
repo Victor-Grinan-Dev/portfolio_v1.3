@@ -4,15 +4,16 @@ import { NavLink } from 'react-router-dom';
 
 const SingleProject = ({name}) => {
   const location = useLocation();
+  const project = location.state.data;
   
   
   const capitalStart = (str) => str.charAt(0).toUpperCase() + str.slice(1);
 
   return (
     <div className= "page" >
-      <NavLink to="/projects"><p>{"<<Back to Projects"}</p></NavLink>
-      
-      
+        <div className="content">
+            <NavLink to="/projects"><p>{"<<Back to Projects"}</p></NavLink>
+        </div>
     </div>
   );
 };
