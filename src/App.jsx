@@ -51,9 +51,10 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>   
+          <Route path="/" element={ <About />} />
+          <Route path="about" element={<About />} />
           <Route path="browse" element={<Browse />} />
           <Route path="skills" element={<Skills />} />
-          <Route path="about" element={<About />} />
           <Route path="add" element={<AddCard />} />
           <Route path="contacts" element={<Contacts />} />
           <Route path="browse/:single" element={<SingleProject />} /> 

@@ -7,7 +7,7 @@ function Skill({name, confidence}) {
   return (
     <div>
         <p>{name} {confidence}</p>
-        <div class="progressBar"
+        <div className="progressBar"
           style={{
             borderRadius: 5,
             width: "70vw",
@@ -16,7 +16,7 @@ function Skill({name, confidence}) {
           }}
         
         >
-            <div class="fill" style={
+            <div className="fill" style={
                 { 
                     height:24, 
                     width:`${confidence}`,
