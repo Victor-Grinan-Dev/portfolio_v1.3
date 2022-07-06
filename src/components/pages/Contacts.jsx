@@ -10,9 +10,8 @@ function Conctacts() {
         <h1> Conctacts: </h1>
         <p>We are in: </p>
         <ul>
-
             {conctacts.map(item => (
-              <li>  
+              <li key={item.id} >  
                   <Conctact 
                   key={item.id} 
                   id={item.id}
@@ -21,13 +20,11 @@ function Conctacts() {
                   />
               </li>
             ))}
-
-
         </ul>
 
       </header>
       <h3> Or just sent email to us: </h3>
-      <Email />
+      <Email key={"email"} />
     </div>
   )
 }

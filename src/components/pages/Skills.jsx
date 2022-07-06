@@ -1,24 +1,6 @@
 import React from 'react';
 import Skill from '../UIs/Skill';
-
-const skills = [
-    {
-        name:"Python",
-        confidence: "70%",
-    },
-    {
-        name:"React",
-        confidence: "60%",
-    },
-    {
-        name:"Symphony",
-        confidence: "50%",
-    },
-    {
-        name:"Drupal",
-        confidence: "0%",
-    },
-]
+import skills from './dummy_skills';
 
 function Skills() {
   return (
@@ -26,7 +8,7 @@ function Skills() {
         <h1>Skills</h1>
 
         {skills.map(skill => (
-            <Skill name={skill.name} confidence={skill.confidence} />
+            <Skill key={skill.id} name={skill.name} confidence={skill.confidence} />
         ))}
     </div>
   )

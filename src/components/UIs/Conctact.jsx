@@ -4,7 +4,7 @@ function Conctact({id, name, url}) {
   return (
     <div>
         <a href={url} target="blank">
-            <img src="icons/github_circle_white_border.com.png" alt={name} class="some" />
+            <img src="icons/github_circle_white_border.com.png" alt={name} className="some" />
         </a>
     </div>
   )
