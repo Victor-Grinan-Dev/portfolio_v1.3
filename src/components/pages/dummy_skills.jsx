@@ -1,7 +1,7 @@
 const skills = [
     {
         id:1,
-        name:"Python",
+        name:"Django",
         confidence: "70%",
     },
     {

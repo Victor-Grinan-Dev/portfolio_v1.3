@@ -28,3 +28,5 @@ const picBank = [
     "/hexes_blue_gradient_scan.JPG",
     "/hand_write.JPG"
 ];
+
+export default picBank;

@@ -9,19 +9,18 @@ function Skill({name, confidence}) {
         <p>{name} {confidence}</p>
         <div className="progressBar"
           style={{
-            borderRadius: 5,
+            borderRadius: 10,
             width: "70vw",
             border: `5px groove ${barBorder}`,
             backgroundColor: `${barBorder}`
           }}
-        
         >
             <div className="fill" style={
                 { 
                     height:24, 
                     width:`${confidence}`,
                     backgroundColor: `${barFill}`,
-                    borderRadius: 5
+                    borderRadius: 10
                 }}>
             </div>
         </div>

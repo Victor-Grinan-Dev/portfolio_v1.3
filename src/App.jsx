@@ -13,6 +13,7 @@ import Skills from './components/pages/Skills';
 import { useState } from 'react';
 import Projects from './components/pages/Projects';
 
+import "./components/styles/mainStyle.css"
 
 //import { getAnalytics } from "firebase/analytics";
 
@@ -27,8 +28,8 @@ import './components/styles/singleProduct.css';
 import './components/styles/home.css';
 import './components/styles/contacts.css';
 */
-import './components/styles/gallery.css'
-import './components/styles/login_signup.css';
+//import './components/styles/gallery.css'
+//import './components/styles/login_signup.css';
 
 const App = () => {
   const [entered, setEntered] = useState(false);
@@ -57,7 +58,8 @@ const App = () => {
           <Route path="skills" element={<Skills />} />
           <Route path="add" element={<AddCard />} />
           <Route path="contacts" element={<Contacts />} />
-          <Route path="browse/:single" element={<SingleProject />} /> 
+          {/*<Route path="browse/:single" element={<SingleProject />} />*/} 
+          <Route path="projects/:single" element={<SingleProject />} /> 
           <Route path="gallery" element={<Gallery />} />
           <Route path="projects" element={<Projects />} />
         </Routes>

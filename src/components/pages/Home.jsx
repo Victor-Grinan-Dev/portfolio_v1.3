@@ -2,7 +2,8 @@ import React from 'react';
 
 function Home({getIn}) {
   return (
-    <div className= "homeBox" >
+    <div className= "page" >
+      <div className="content">
         <div className="videoContainer" >
             <p className="slogan"> Hi there! </p>
             <p className="slogan"> Im Victor Grinan </p>
@@ -10,6 +11,7 @@ function Home({getIn}) {
             <h1 className="title">"Portfolio"</h1>
             <button onClick={getIn} > Let's get started </button>
         </div>
+      </div>
     </div>
   )
 }

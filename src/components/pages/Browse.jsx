@@ -39,7 +39,7 @@ function Browse() {
   }
 
   return (
-    <div className="browse">
+    <div className="page">
       <NavLink to="/add" className="addCard">Add new card </NavLink>
       <div className="search" >
         <label> Search </label>

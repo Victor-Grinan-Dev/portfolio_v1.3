@@ -17,7 +17,7 @@ function Email() {
       };
       
   return (
-    <div className='page-container'>
+    <div className='mail'>
 
         <form ref={form} onSubmit={sendEmail}>
             <table>

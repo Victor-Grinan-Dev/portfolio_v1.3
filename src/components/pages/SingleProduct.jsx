@@ -9,7 +9,7 @@ const SingleProduct = () => {
   const capitalStart = (str) => str.charAt(0).toUpperCase() + str.slice(1);
 
   return (
-    <div className= "singleFood" >
+    <div className= "page" >
       <NavLink to="/browse"><p>{"<<Back to Browser"}</p></NavLink>
       
       <div className="imageSingleContainer" >
