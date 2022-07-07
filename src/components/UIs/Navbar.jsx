@@ -13,7 +13,8 @@ const navBarStyles ={
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "space-around",
-    position: "fixed"
+    position: "fixed",
+    zIndex:3
   },
   logo_img : {
     width: "100px",

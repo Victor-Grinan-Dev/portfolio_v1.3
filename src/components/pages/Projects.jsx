@@ -19,7 +19,6 @@ function Projects() {
                 
             }}
         >
-        {/* {<h1> Projects </h1>} */}
             {projects.map(project => (
                 <Project 
                 key={project.id} 

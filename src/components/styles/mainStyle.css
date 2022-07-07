@@ -5,6 +5,12 @@
     --amarillo-palido :#F8F9D7;
     --naranja-palido :#F37878;
 }
+
+*{
+    margin: 0;
+    display: 0
+}
+
 body{
     width: 100vw;
     height: 100vh;
@@ -15,14 +21,15 @@ body{
 }
 .page{
     background-color: var(--azul-medio);
-    width: 80%;
+    width: 100%;
     min-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: relative;
     right: 0;
+    z-index: 2;
 }
 
 .content{
@@ -33,5 +40,14 @@ body{
     align-items: center;
     flex-wrap: wrap;
     margin-left: 25vw;
-    margin-right: 25vw;
+    
+}
+
+a{
+    color:var( --azul-oscuro );
+    text-decoration: none;
+}
+
+a:hover{
+    color:var(--naranja-palido)
 }
