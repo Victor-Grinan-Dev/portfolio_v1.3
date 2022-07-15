@@ -28,10 +28,6 @@ const navBarStyles ={
     alignItems: "center",
     justifyContent: "space-between",
     marginBotton: "10px"
-  },
-  navLink:{
-    color: "beige",
-    textDecoration: "none"
   }
 }
 //style={}

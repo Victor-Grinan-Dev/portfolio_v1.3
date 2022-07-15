@@ -1,5 +1,5 @@
 import React from 'react';
-import projects from './dummy_projects';
+import projects from './dummydb/dummy_projects';
 import Project from '../UIs/Project';
 //import { useState } from 'react';
 

@@ -8,7 +8,8 @@ function Project({id, title, description, image, url, data}) {
             width:"200px",
             height:"250px",
             backgroundColor:"white",
-            margin:"10px"
+            margin:"10px",
+            boxShadow:"0 0 10px black"
         }}
     >
         <a href={url ? url : "#"}>
@@ -26,13 +27,13 @@ function Project({id, title, description, image, url, data}) {
     
         <div className="description"
             style={{
-                width:"",
-                height:"",
-                backgroundColor:"",
-                margin:"",
+                display:"flex",
+                flexDirection:"column",
+                justifyContent:"center",
+                alignItems:"center"
             }}
         >
-            <h4 className="projectTitle"> "{title}" </h4>
+            <h4 className="projectTitle">"{title}"</h4>
             <p className="descriptionText"> {description ? description: "Lorem ipsum dolor sit amede."}  </p>
         </div>
 

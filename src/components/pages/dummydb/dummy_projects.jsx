@@ -3,73 +3,80 @@
 const projects = [
     {
         id:1,
-        title:"gradients",
-        description: "a gradients backgound",
+        title:"BMI_calc",
+        description: "an app to control diet",
         image:"",
-        url:"",
-        main_lang:"Javascript"
+        url:"https://victor-grinan-dev.github.io/BMI_calc/",
+        main_lang:"Javascript",
+        type:"school"
     },
     {
         id:2,
-        title:"used cars",
-        description: "a used cars list",
+        title:"Gradients",
+        description: "a gradients background color controller",
         image:"",
-        url:"",
-        main_lang:"Javascript"
+        url:"https://victor-grinan-dev.github.io/color_gradients/",
+        main_lang:"Javascript",
+        client:"school"
     },
     {
         id:3,
-        title:"pokedex",
-        description: "a pokedex app",
+        title:"Speed Game",
+        description: "a little game to lear state",
         image:"",
-        url:"",
-        main_lang:"Javascript"
+        url:"https://victor-grinan-dev.github.io/speed_drum/",
+        main_lang:"Javascript",
+        client:"school"
     },
     {
         id:4,
-        title:"BMI",
-        description: "weigth control app",
+        title:"Cars Database",
+        description: "a car database app",
         image:"",
-        url:"Javascript"
+        url:"https://victor-grinan-dev.github.io/cars_databse/",
+        lang:"Javascript",
+        client:"school"
+
     },
     {
         id:5,
-        title:"personal project 1",
-        description: "personal app",
+        title:"ToDo List",
+        description: "keep track of your ToDo's",
         image:"",
-        url:"",
-        main_lang:"python"
+        url:"https://victor-grinan-dev.github.io/ToDoList/",
+        main_lang:"Javascript",
+        client:"school"
     },
     {
         id:6,
-        title:"speed game",
-        description: "a game of speed app",
+        title:"dice roller",
+        description: "an app to roll dices",
         image:"",
-        url:"",
+        url:"https://victor-grinan-dev.github.io/diceRoller/",
         main_lang:"Javascript"
     },
     {
         id:7,
-        title:"animals",
-        description: "an animal app",
+        title:"food-app",
+        description: "an recipes app",
         image:"",
-        url:"",
+        url:"https://food-app3.herokuapp.com/",
         main_lang:"Javascript"
     },
     {
         id:8,
-        title:"personal project 1",
-        description: "personal app",
+        title:"Gallery",
+        description: "a images gallery",
         image:"",
-        url:"",
+        url:"https://victor-grinan-dev.github.io/gallery/",
         main_lang:"Javascript"
     },
     {
         id:9,
-        title:"feel it cook it",
-        description: "a food app",
+        title:"blood bowl timer",
+        description: "blood boooowl!!!",
         image:"",
-        url:"",
+        url:"https://victor-grinan-dev.github.io/blood_bowl_turn_timer/",
         main_lang:"Javascript"
     },
     {

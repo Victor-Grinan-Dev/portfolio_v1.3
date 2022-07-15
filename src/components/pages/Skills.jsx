@@ -1,6 +1,6 @@
 import React from 'react';
 import Skill from '../UIs/Skill';
-import skills from './dummy_skills';
+import skills from './dummydb/dummy_skills';
 
 function Skills() {
   return (

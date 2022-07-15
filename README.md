@@ -32,6 +32,23 @@ npm run server
 3- If you want to change the port that json server uses you can specify it in that last command.
 Just remember to change it also in ./src/components/pages/Browse.js line 7.
 
+## firebase rest api
+
+1- install firebase in you computer. More info: https://firebase.google.com/docs/cli?hl=es&authuser=0
+
+```shell
+  npm install -g firebase-tools
+```
+
+2- open your IDE and type in the terminal:
+
+```shell
+  firebase login
+  firebase init
+```
+
+3- follow the instructions
+
 ## enabling login System
 
 1- go to firebase and create a new project
@@ -68,7 +85,7 @@ server.js
 - copy this in it:
 
   ```
-  web: node server.js
+  web: "node server.js"
   ```
 
 - in the package.json file of your app change:

@@ -1,6 +1,6 @@
 import React from 'react';
 import Email from '../UIs/Email';
-import conctacts from './dummy_conctacts';
+import conctacts from './dummydb/dummy_conctacts';
 import Conctact from '../UIs/Conctact';
 
 function Conctacts() {

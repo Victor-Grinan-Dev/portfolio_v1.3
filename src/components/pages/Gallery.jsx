@@ -1,5 +1,5 @@
 import React from 'react'
-import picBank from './dummy_galleryPics';
+import picBank from './dummydb/dummy_galleryPics';
 function Gallery() {
     
     const totalPics = 7;
