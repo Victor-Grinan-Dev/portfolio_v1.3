@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Project({id, title, description, image, url, data}) {
+
   return (
     <div className="project"
         style={{
