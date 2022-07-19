@@ -34,7 +34,7 @@ function Project({id, title, description, image, url, data}) {
                 alignItems:"center"
             }}
         >
-            <h4 className="projectTitle">"{title}"</h4>
+            <h4 className="projectTitle">"{title?title:"Unknown"}"</h4>
             <p className="descriptionText"> {description ? description: "Lorem ipsum dolor sit amede."}  </p>
         </div>
 

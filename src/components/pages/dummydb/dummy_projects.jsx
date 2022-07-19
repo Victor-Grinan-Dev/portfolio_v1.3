@@ -112,16 +112,16 @@ const projects = [
     },
     {
         id:13,
-        title:"another personal app",
-        description: "personal app",
+        title:"",
+        description: "",
         image:"",
         url:"",
         main_lang:"Python"
     },
     {
         id:14,
-        title:"school exercise app",
-        description: "personal app",
+        title:"",
+        description: "",
         image:"",
         url:"",
         main_lang:"PHP"
@@ -129,11 +129,19 @@ const projects = [
     {
         id:15,
         title:"CRUD",
-        description: "personal app",
+        description: "",
         image:"",
         url:"",
         main_lang:"PHP"
     },
+    {
+        id:16,
+        title:"",
+        description: "",
+        image:"",
+        url:"",
+        main_lang:"PHP"
+    }
 ]
 
 export default projects;
