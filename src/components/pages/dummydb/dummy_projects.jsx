@@ -5,7 +5,8 @@ import hexMap from '../../assets/images/project_images/hexMap.JPG';
 import hairPic from '../../assets/images/project_images/mamis_hairdo.JPG';
 import speedPic from '../../assets/images/project_images/speedgame.JPG';
 import bloodBowlPic from '../../assets/images/project_images/turn_timer.JPG';
-import galleryPic from '../../assets/images/project_images/gallery.png'
+import galleryPic from '../../assets/images/project_images/gallery.png';
+import pokePic from '../../assets/images/project_images/pokedex.png'
 
 const projects = [
     {
@@ -112,11 +113,11 @@ const projects = [
     },
     {
         id:13,
-        title:"",
-        description: "",
-        image:"",
-        url:"",
-        main_lang:"Python"
+        title:"pokedex",
+        description: "a classroom exercise",
+        image:pokePic,
+        url:"https://victor-grinan-dev.github.io/pokedex/",
+        main_lang:"javascript"
     },
     {
         id:14,

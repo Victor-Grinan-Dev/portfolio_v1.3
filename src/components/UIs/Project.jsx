@@ -13,8 +13,8 @@ function Project({id, title, description, image, url, data}) {
             boxShadow:"0 0 10px black"
         }}
     >
-        <a href={url ? url : "#"}>
-            <div id={id} className="projectImg"
+        <a href={url ? url : "#"} target="blank">
+            <div id={id} className="projectImg" 
                 style={{
                     width:"180px",
                     height:"140px",
