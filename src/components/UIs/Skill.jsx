@@ -1,11 +1,31 @@
 import React from 'react'
 
 const barBorder = "black";
-const barFill = "green";
+
+const barFill = (percent) => {
+
+  const over_75 = "green";
+  const under_75 = "yellow"
+  const under_50 = "orange";
+  const under_25 = "red"
+  
+  if ( percent < 25 ){
+    return under_25;
+  }else if ( percent < 50 ){
+    return under_50;
+  }else if ( percent < 75 ){
+    return under_75;
+  }else{
+    return over_75;
+  }
+}
 
 function Skill({name, confidence}) {
   return (
-    <div>
+    <div style={{
+      margin:"10px"
+    }}
+    >
         <p>{name} {confidence}</p>
         <div className="progressBar"
           style={{
@@ -19,7 +39,7 @@ function Skill({name, confidence}) {
                 { 
                     height:24, 
                     width:`${confidence}`,
-                    backgroundColor: `${barFill}`,
+                    backgroundColor: `${barFill(confidence)}`,
                     borderRadius: 10
                 }}>
             </div>
