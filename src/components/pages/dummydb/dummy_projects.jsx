@@ -97,7 +97,7 @@ const projects = [
     },
     {
         id:11,
-        title:"keeper app",
+        title: "keeper app",
         description: "personal app",
         image:"",
         url:"",
